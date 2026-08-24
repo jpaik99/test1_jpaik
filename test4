@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>혜원 | 건물의 모든 운영을 하나로</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <a href="index.html" class="logo">HYEWON<span>혜원 · 건물종합관리</span></a>
+  <nav id="siteNav">
+    <ul>
+      <li><a href="index.html" class="nav-link active">Home</a></li>
+      <li><a href="company.html" class="nav-link">Company</a></li>
+      <li><a href="service.html" class="nav-link">Service</a></li>
+      <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="nav-cta">
+    <span class="nav-tel">02-000-0000</span>
+    <a href="contact.html" class="btn on-dark" style="padding:11px 22px; font-size:13px;">상담 신청</a>
+  </div>
+  <div class="burger" id="burger"><span></span><span></span><span></span></div>
+</header>
+
+<!-- ===== HOME ===== -->
+<section id="home">
+  <div class="hero-glow"></div>
+  <svg class="hero-skyline" viewBox="0 0 1440 360" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="180" width="90" height="180" fill="#0E1C2E"/>
+    <rect x="95" y="120" width="60" height="240" fill="#132540"/>
+    <rect x="160" y="200" width="70" height="160" fill="#0E1C2E"/>
+    <rect x="235" y="90" width="80" height="270" fill="#16283F"/>
+    <rect x="320" y="150" width="55" height="210" fill="#0E1C2E"/>
+    <rect x="380" y="60" width="95" height="300" fill="#132540"/>
+    <rect x="480" y="170" width="65" height="190" fill="#0E1C2E"/>
+    <rect x="550" y="30" width="100" height="330" fill="#16283F"/>
+    <rect x="655" y="130" width="70" height="230" fill="#0E1C2E"/>
+    <rect x="730" y="80" width="85" height="280" fill="#132540"/>
+    <rect x="820" y="190" width="60" height="170" fill="#0E1C2E"/>
+    <rect x="885" y="110" width="90" height="250" fill="#16283F"/>
+    <rect x="980" y="200" width="55" height="160" fill="#0E1C2E"/>
+    <rect x="1040" y="50" width="100" height="310" fill="#132540"/>
+    <rect x="1145" y="160" width="70" height="200" fill="#0E1C2E"/>
+    <rect x="1220" y="95" width="85" height="265" fill="#16283F"/>
+    <rect x="1310" y="185" width="60" height="175" fill="#0E1C2E"/>
+    <rect x="1375" y="130" width="65" height="230" fill="#132540"/>
+    <g fill="#C6A15B" opacity="0.55">
+      <rect x="405" y="90" width="6" height="6"/><rect x="425" y="90" width="6" height="6"/>
+      <rect x="405" y="120" width="6" height="6"/><rect x="445" y="120" width="6" height="6"/>
+      <rect x="575" y="70" width="6" height="6"/><rect x="600" y="70" width="6" height="6"/>
+      <rect x="575" y="110" width="6" height="6"/><rect x="620" y="110" width="6" height="6"/>
+      <rect x="905" y="150" width="6" height="6"/><rect x="930" y="150" width="6" height="6"/>
+      <rect x="1065" y="90" width="6" height="6"/><rect x="1090" y="90" width="6" height="6"/>
+      <rect x="1245" y="135" width="6" height="6"/><rect x="1270" y="135" width="6" height="6"/>
+    </g>
+  </svg>
+  <div class="hero-content">
+    <div class="hero-eyebrow">HYEWON BUILDING MANAGEMENT</div>
+    <h1 class="hero-slogan">건물의 모든 운영을<br><em>하나로</em></h1>
+    <p class="hero-sub">미화, 경비, 시설관리, 임대, 컨설팅까지 — 흩어져 있던 건물 운영을<br>혜원 하나의 창구에서 통합적으로 관리합니다.</p>
+    <div class="hero-btns">
+      <a href="service.html" class="btn on-dark">서비스 살펴보기</a>
+      <a href="contact.html" class="btn solid">상담 신청하기</a>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>SCROLL</span><div class="line"></div></div>
+</section>
+
+<!-- Home: 차별점 (메인 사진 바로 아래) -->
+<section class="home-diff">
+  <div class="section-inner">
+    <div class="sec-head center">
+      <div class="eyebrow">Our Difference</div>
+      <h2>왜 혜원인가 — 흩어진 관리에서<br>하나의 운영으로</h2>
+      <p>기존에는 미화, 경비, 시설관리, 임대, 컨설팅이 각각 다른 업체와 다른 방식으로 따로 운영되어야 했습니다.<br>혜원은 이 모든 영역을 하나의 회사, 하나의 체계 안에서 한 번에 제공합니다.</p>
+    </div>
+
+    <div class="diff-compare">
+      <!-- BEFORE -->
+      <div class="diff-card before">
+        <div class="dc-media">
+          <svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <rect width="700" height="350" fill="#3B4552"/>
+            <rect x="0" y="140" width="90" height="210" fill="#2E3742"/>
+            <rect x="95" y="90" width="65" height="260" fill="#333D48"/>
+            <rect x="165" y="170" width="75" height="180" fill="#2A323C"/>
+            <rect x="245" y="50" width="90" height="300" fill="#39424E"/>
+            <rect x="340" y="120" width="60" height="230" fill="#2E3742"/>
+            <rect x="405" y="20" width="100" height="330" fill="#333D48"/>
+            <rect x="510" y="150" width="70" height="200" fill="#2A323C"/>
+            <rect x="585" y="80" width="115" height="270" fill="#39424E"/>
+            <g fill="#8B95A0" opacity="0.35">
+              <rect x="270" y="80" width="8" height="8"/><rect x="295" y="80" width="8" height="8"/><rect x="270" y="110" width="8" height="8"/><rect x="295" y="110" width="8" height="8"/>
+              <rect x="430" y="50" width="8" height="8"/><rect x="455" y="50" width="8" height="8"/><rect x="480" y="50" width="8" height="8"/><rect x="430" y="85" width="8" height="8"/><rect x="455" y="85" width="8" height="8"/><rect x="480" y="85" width="8" height="8"/>
+            </g>
+          </svg>
+          <div class="dc-label">
+            <div class="bar"></div>
+            <h4>기존의 건물관리</h4>
+            <p>미화 · 경비 · 시설관리 · 임대 · 컨설팅이 각각 따로 운영</p>
+          </div>
+        </div>
+        <div class="dc-body">
+          <div class="dc-item">
+            <div class="dc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg></div>
+            <p>업체별 개별 계약과 중복 관리로<strong>관리비용 증가</strong></p>
+          </div>
+          <div class="dc-item">
+            <div class="dc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/></svg></div>
+            <p>여러 담당자와의 개별 소통으로<strong>업무 공백 및 보고 지연</strong></p>
+          </div>
+          <div class="dc-item">
+            <div class="dc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 9a3 3 0 1 1 4 2.83V15M12 18h.01"/></svg></div>
+            <p>문제 발생 시 업체 간<strong>책임 소재 불분명</strong></p>
+          </div>
+          <div class="dc-item">
+            <div class="dc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+            <p>사안마다 다른 창구를 거쳐야 하는<strong>비효율적인 대응</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ARROW -->
+      <div class="diff-arrow">
+        <svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 8 L18 20 L4 32" stroke="#C6A15B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+          <path d="M20 8 L34 20 L20 32" stroke="#C6A15B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+          <path d="M36 8 L50 20 L36 32" stroke="#C6A15B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <!-- AFTER -->
+      <div class="diff-card after">
+        <div class="dc-media">
+          <svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="afterBgHome" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#16283F"/>
+                <stop offset="100%" stop-color="#0E1C2E"/>
+              </linearGradient>
+            </defs>
+            <rect width="700" height="350" fill="url(#afterBgHome)"/>
+            <rect x="0" y="140" width="90" height="210" fill="#132540"/>
+            <rect x="95" y="90" width="65" height="260" fill="#16283F"/>
+            <rect x="165" y="170" width="75" height="180" fill="#0E1C2E"/>
+            <rect x="245" y="50" width="90" height="300" fill="#132540"/>
+            <rect x="340" y="120" width="60" height="230" fill="#16283F"/>
+            <rect x="405" y="20" width="100" height="330" fill="#0E1C2E"/>
+            <rect x="510" y="150" width="70" height="200" fill="#132540"/>
+            <rect x="585" y="80" width="115" height="270" fill="#16283F"/>
+            <g stroke="#C6A15B" stroke-width="1" opacity="0.55">
+              <line x1="60" y1="200" x2="290" y2="130"/>
+              <line x1="290" y1="130" x2="455" y2="90"/>
+              <line x1="455" y1="90" x2="645" y2="170"/>
+              <line x1="290" y1="130" x2="545" y2="200"/>
+            </g>
+            <g fill="#E2C68C">
+              <circle cx="60" cy="200" r="4"/>
+              <circle cx="290" cy="130" r="4"/>
+              <circle cx="455" cy="90" r="4"/>
+              <circle cx="645" cy="170" r="4"/>
+              <circle cx="545" cy="200" r="4"/>
+            </g>
+          </svg>
+          <div class="dc-label">
+            <div class="bar"></div>
+            <h4>혜원 통합관리</h4>
+            <p>5개 영역을 하나의 체계로 통합 운영</p>
+          </div>
+        </div>
+        <div class="dc-body">
+          <div class="dc-item">
+            <div class="dc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="1"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg></div>
+            <p>단일 계약으로 중복 비용을 줄이고<strong>관리비용 절감</strong></p>
+          </div>
+          <div class="dc-item">
+            <div class="dc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>
+            <p>하나의 담당 창구를 통한<strong>즉각적인 커뮤니케이션</strong></p>
+          </div>
+          <div class="dc-item">
+            <div class="dc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+            <p>혜원이 전 영역을 책임지는<strong>명확한 책임 관리</strong></p>
+          </div>
+          <div class="dc-item">
+            <div class="dc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg></div>
+            <p>미화 · 경비 · 시설관리 · 임대 · 컨설팅<strong>원스톱 즉시 대응</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:48px;">
+      <a href="company.html" class="btn">회사 자세히 보기</a>
+    </div>
+  </div>
+</section>
+
+<!-- Intro strip: 회사소개 -->
+<section class="intro-strip">
+  <div class="intro-grid">
+    <div>
+      <div class="eyebrow">Company Intro</div>
+      <h2>흩어진 관리가 아닌,<br>하나로 이어지는 운영.</h2>
+    </div>
+    <div>
+      <p class="body-text">
+        혜원은 건물 운영에 필요한 미화·경비·시설관리·임대·컨설팅 업무를 개별 업체가 아닌 하나의 통합 체계 안에서 제공하는
+        건물 종합관리 전문 기업입니다. 여러 업체와 계약을 나누고 소통 창구를 따로 관리해야 했던 기존 방식에서 벗어나,
+        하나의 파트너가 건물의 시작부터 끝까지 책임지는 운영 방식을 제안합니다.
+      </p>
+      <div class="intro-stats">
+        <div><div class="num">5 IN 1</div><div class="lbl">통합 운영 영역</div></div>
+        <div><div class="num">1</div><div class="lbl">단일 소통 창구</div></div>
+        <div><div class="num">ONE</div><div class="lbl">일원화된 계약 구조</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">HYEWON</div>
+        <div class="footer-slogan">건물의 모든 운영을 하나로</div>
+      </div>
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="company.html">Company</a>
+        <a href="service.html">Service</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 HYEWON. All Rights Reserved.</span>
+      <span>서울특별시 ○○구 ○○로 00 · 02-000-0000</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const header = document.getElementById('siteHeader');
+  const nav = document.getElementById('siteNav');
+  const burger = document.getElementById('burger');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+  });
+  burger.addEventListener('click', () => nav.classList.toggle('open'));
+  document.querySelectorAll('.nav-link').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+</script>
+
+</body>
+</html>
